@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Симулятор (без дрона)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/simulate.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Полёт дрона",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/fly.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
